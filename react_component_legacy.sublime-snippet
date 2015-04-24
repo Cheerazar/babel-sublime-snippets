@@ -3,11 +3,11 @@
 import React from 'react';
 
 export const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = React.createClass({
-	render() {
-		return ${2:(
-			${3:<div>${0}</div>}
-		);}
-	}
+  render () {
+    return ${2:(
+      ${3:<div>${0}</div>}
+    );}
+  }
 });
 
 ]]></content>
